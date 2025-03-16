@@ -41,10 +41,10 @@ function WordDisplay({ word }) {
           <LetterButton key={index} letter={letter} />
         ))}
       </div>
-      <button className="action-button" onClick={() => speak(word)}> // Button to say the word
+      <button className="action-button" onClick={() => speak(word)}>
         Say Word
       </button>
-      <button className="action-button" onClick={handleSpellItOut}> // Button to spell out the word
+      <button className="action-button" onClick={handleSpellItOut}>
         Spell It Out
       </button>
     </div>

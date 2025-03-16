@@ -19,7 +19,7 @@ function LetterButton({ letter }) {
       style={{ backgroundColor: randomColor }} // Apply a random background color to the button
       onClick={() => speak(letter)} // Call the speak function with the letter when clicked
     >
-      {letter} // Display the letter on the button
+      {letter}
     </button>
   );
 }
