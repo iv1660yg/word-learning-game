@@ -1,0 +1,28 @@
+/* Styles for displaying words with spacing */
+.word-display {
+  margin: 20px 0; /* Adds vertical margin around word display container */
+}
+
+/* Container for letter buttons arranged horizontally with spacing */
+.letters {
+  display: flex; /* Uses Flexbox for layout */
+  justify-content: center; /* Centers content horizontally */
+  gap: 10px; /* Space between items in the container */
+}
+
+/* Styling for action buttons, used for various actions like submit or reset */
+.action-button {
+  font-size: 1.5rem; /* Sets text size to 1.5rem */
+  margin: 10px; /* Adds margin around button */
+  padding: 10px 20px; /* Adds padding inside the button */
+  background-color: #54a0ff; /* Sets default background color */
+  color: white; /* Sets text color to white */
+  border: none; /* Removes border */
+  border-radius: 10px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+/* Styles for action buttons when hovered over */
+.action-button:hover {
+  background-color: #2e86de; /* Darkens the button's background color on hover */
+}

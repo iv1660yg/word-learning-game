@@ -1,0 +1,28 @@
+/* Styles for the application container */
+.app {
+    text-align: center; /* Center align text within the app container */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set font family to Comic Sans MS or a similar cursive font if available */
+    padding: 20px; /* Add padding around the content of the app */
+}
+
+/* Styles for h1 heading */
+h1 {
+    font-size: 2.5rem; /* Set font size to 2.5 times the base size */
+    color: #333; /* Set text color to a dark gray */
+}
+
+/* Styles for navigation buttons */
+.navigation button {
+    font-size: 1.5rem; /* Set font size for buttons */
+    margin: 10px; /* Add margin around buttons */
+    padding: 10px 20px; /* Set padding inside buttons */
+    background-color: #feca57; /* Set initial background color to a yellowish brown */
+    border: none; /* Remove button borders */
+    border-radius: 10px; /* Round the corners of buttons */
+    cursor: pointer; /* Change cursor to a hand icon on hover */
+}
+
+/* Styles for hovered navigation buttons */
+  .navigation button:hover {
+    background-color: #ff9f43; /* Change background color to a darker yellowish brown on hover */
+  }

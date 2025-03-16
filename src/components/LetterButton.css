@@ -1,0 +1,30 @@
+/* Define the style for letter buttons */
+.letter-button {
+  /* Set the width and height of the button */
+  width: 80px;
+  height: 80px;
+
+  /* Set the font size of the text inside the button */
+  font-size: 2.5rem;
+
+  /* Set the color of the text to white */
+  color: white;
+
+  /* Remove any default border from the button */
+  border: none;
+
+  /* Add rounded corners to the button for a softer look */
+  border-radius: 10px;
+
+  /* Change the cursor to a pointer when hovering over the button */
+  cursor: pointer;
+
+  /* Add a transition effect for smooth scaling transformations */
+  transition: transform 0.2s;
+}
+
+/* Define styles for when the letter button is hovered over */
+.letter-button:hover {
+  /* Scale the button up by 10% when hovered */
+  transform: scale(1.1);
+}

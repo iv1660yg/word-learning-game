@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  word-learning-game:
+    build:
+      context: .
+    ports:
+      - "8088:80"

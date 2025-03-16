@@ -1,0 +1,38 @@
+.sentence-display {
+  margin: 20px 0;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.word-button {
+  font-size: 2rem;
+  padding: 10px 20px;
+  background-color: #ff9ff3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.word-button:hover {
+  background-color: #f368e0;
+}
+
+.action-button {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #54a0ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #2e86de;
+}
